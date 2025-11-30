@@ -1,8 +1,6 @@
-#root {
-  text-align: center;
-}
 .overlay {
-  background-color: rgba(0, 0, 0, 0.679);
+  background-color: rgba(0, 0, 0, 0.378);
+  backdrop-filter: blur(10px);
   position: absolute;
   top: 0;
   left: 0;
