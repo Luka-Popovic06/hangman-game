@@ -61,3 +61,67 @@
   font-size: 2rem;
   font-weight: 600;
 }
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 50px;
+  color: #fff;
+}
+nav h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+nav p {
+  font-size: 1.2rem;
+}
+.guessed-wrong {
+  color: rgb(44, 84, 226);
+  margin-bottom: 20px;
+}
+.time-left-p {
+  color: #f10;
+}
+/*MAIN*/
+.container {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+.container img {
+  width: 110px;
+  height: 210px;
+  object-fit: cover;
+}
+.guess-p {
+  font-size: 1.3rem;
+}
+.word {
+  font-size: 3rem;
+}
+.btn-box {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 10px;
+  column-gap: 10px;
+}
+.secondary-btn {
+  padding: 12px 17px;
+  font-size: 1.5rem;
+  background-color: #07ffc9;
+  border: none;
+  border-radius: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+  color: #171b19;
+}
+.secondary-btn:hover {
+  transition: 0.3s;
+  background-color: #fff;
+}
