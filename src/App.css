@@ -13,7 +13,6 @@
   align-items: center;
   justify-content: center;
 }
-
 .difficulty-box {
   width: 30%;
   display: flex;
@@ -122,4 +121,38 @@ nav p {
 .secondary-btn:hover {
   transition: 0.3s;
   background-color: #fff;
+}
+@keyframes fallDown {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(10px) rotate(-90deg);
+  }
+}
+.fall {
+  animation: fallDown 0.3s forwards ease-out;
+}
+.secondary-red-btn {
+  padding: 12px 17px;
+  font-size: 1.5rem;
+  background-color: #f10;
+  border: none;
+  border-radius: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+  color: #171b19;
+}
+.lost-p {
+  color: #f10;
+  font-size: 1.5rem;
+}
+.win-p {
+  color: aqua;
+  font-size: 1.5rem;
+}
+.btn {
+  border: none;
+  background-color: transparent;
 }

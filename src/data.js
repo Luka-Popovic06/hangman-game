@@ -1,5 +1,5 @@
 export const categories = {
-  movies: [
+  movie: [
     { name: "Inception" },
     { name: "Titanic" },
     { name: "Matrix" },
@@ -11,7 +11,7 @@ export const categories = {
     { name: "Avengers" },
     { name: "Jurassic Park" },
   ],
-  tvshows: [
+  tvshow: [
     { name: "Breaking Bad" },
     { name: "Friends" },
     { name: "Game of Thrones" },
@@ -23,7 +23,7 @@ export const categories = {
     { name: "Black Mirror" },
     { name: "Rick and Morty" },
   ],
-  countries: [
+  country: [
     { name: "France" },
     { name: "Brazil" },
     { name: "Japan" },
@@ -35,7 +35,7 @@ export const categories = {
     { name: "Mexico" },
     { name: "Norway" },
   ],
-  animals: [
+  animal: [
     { name: "Lion" },
     { name: "Tiger" },
     { name: "Elephant" },
